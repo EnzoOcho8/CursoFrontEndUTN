@@ -1,0 +1,35 @@
+#imagen{
+    width: 150px;
+    height: 150px;
+}
+
+.contenedor{
+    text-align: center;
+}
+
+#nombre{
+    color:rgb(117, 14, 14);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    color: rgb(11, 2, 59);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pregunta{
+    color: rgb(58, 90, 9);
+    background-color: rgb(173, 173, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 170px;
+    box-shadow: 9px 10px 16px -6px rgba(0,0,0,0.75);
+    border: 15px solid rgb(173, 173, 245);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.respuesta{
+    color: rgb(85, 82, 82);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
