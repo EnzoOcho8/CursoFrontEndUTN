@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ej1</title>
+    <link rel="stylesheet" href="ej1.css">
+</head>
+<body>
+    <button class="botonRojo" onclick="cambiarRojo()"></button>
+    <button class="botonVerde" onclick="cambiarVerde()"></button>
+    <button class="botonAzul" onclick="cambiarAzul()"></button>
+    <script>
+        function cambiarRojo(){
+            let colorPag = document.getElementsByTagName("body")[0];
+            colorPag.style.backgroundColor = "#f00"
+        }
+        function cambiarVerde(){
+            let colorPag = document.getElementsByTagName("body")[0];
+            colorPag.style.backgroundColor = "#008000"
+        }
+        function cambiarAzul(){
+            let colorPag = document.getElementsByTagName("body")[0];
+            colorPag.style.backgroundColor = "#0000FF"
+        }
+    </script>
+</body>
+</html>

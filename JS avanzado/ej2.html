@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ej2 JS</title>
+</head>
+<body>
+    <textarea name="Texto" id="textarea" cols="30" rows="10"></textarea>
+    <h2>Cantidad de caracteres:</h2>
+    <script>
+        const caracteres = 0;
+        const texto = document.getElementsByTagName("textarea");
+        const cantidad = document.getElementsByTagName("h2")
+        texto.addEventListener("input", cantCaracteres);
+
+        function cantCaracteres(e){
+            caracteres = texto.length;
+            cantidad + document.write(caracteres);
+        }
+
+    </script>
+    
+</body>
+</html>
