@@ -5,19 +5,17 @@
     <title>ej2 JS</title>
 </head>
 <body>
-    <textarea name="Texto" id="textarea" cols="30" rows="10"></textarea>
-    <h2>Cantidad de caracteres:</h2>
+    <textarea id="texto" cols="30" rows="10"></textarea>
+    <h2 id="contador">Contador: 0</h2>
     <script>
-        const caracteres = 0;
-        const texto = document.getElementsByTagName("textarea");
-        const cantidad = document.getElementsByTagName("h2")
-        texto.addEventListener("input", cantCaracteres);
+    const texto = document.getElementById("texto");
+    const contador = document.getElementById("contador");
+    
 
-        function cantCaracteres(e){
-            caracteres = texto.length;
-            cantidad + document.write(caracteres);
-        }
-
+    texto.addEventListener("input", function(e){
+        let caracteres = texto.value.length;
+        contador.innerHTML = `Contador: ${caracteres}`
+    })
     </script>
     
 </body>
