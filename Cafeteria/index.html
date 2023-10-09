@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria</title>
+    <link rel="icon" type="image/x-icon" href="Imagenes/cup-hot.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Imagenes/cup-hot.svg" alt="Logo de la pag" width="30px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Carta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero -->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+
+            <h1>Cafeteria "Los Campeones"</h1>
+            <p class="align-items-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus perferendis rerum eligendi eos,
+                fuga beatae eaque molestias dignissimos impedit, aliquam aperiam alias similique iste ipsam nemo
+                praesentium deserunt consequuntur ipsum!</p>
+        </div>
+    </section>
+    <!-- Cafes -->
+    <section class="cafes d-flex flex-column">
+        <h2 class="seccion-titulo">Cafes</h2>
+        <h3 class="seccion-descripcion">Estos son los cafes que tenemos disponibles:</h3>
+        <!-- Galeria de cafes -->
+        <div class="container text-center cafes-contenedor">
+            <div class="row">
+                <!-- Espresso -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="cafe">
+                        <img src="Imagenes/cafe2.jpg" alt="cafe-1">
+                        <div class="overlay">
+                            <p>Espresso</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cafe con leche -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="cafe">
+                        <img src="Imagenes/cafe2.jpg" alt="cafe-1">
+                        <div class="overlay">
+                            <p>Cafe con leche</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Latte -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="cafe">
+                        <img src="Imagenes/cafe2.jpg" alt="cafe-1">
+                        <div class="overlay">
+                            <p>Latte</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cappuchino -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="cafe">
+                        <img src="Imagenes/cafe2.jpg" alt="cafe-1">
+                        <div class="overlay">
+                            <p>Cappuchino</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Moca -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="cafe">
+                        <img src="Imagenes/cafe2.jpg" alt="cafe-1">
+                        <div class="overlay">
+                            <p>Moca</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cortado -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="cafe">
+                        <img src="Imagenes/cafe2.jpg" alt="cafe-1">
+                        <div class="overlay">
+                            <p>Cortado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonios -->
+    <section class="testimonios">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">Estos son algunos testimonios de nuestros clientes:</h3>
+        <!-- Carrusel -->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="Imagenes/messi.jpg" alt="Imagen de Messi">
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestias quam veniam repellat, fuga natus? Consectetur earum perspiciatis accusantium, voluptas aut beatae quae provident officia porro qui eligendi repudiandae reiciendis.</p>
+                    <div class="testimonio-info">
+                        <p class="cliente">Lionel Messi</p>
+                        <p class="cargo">Capitan de la seleccion Argentina</p>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="Imagenes/dibu.jpg" alt="Imagen de Messi">
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestias quam veniam repellat, fuga natus? Consectetur earum perspiciatis accusantium, voluptas aut beatae quae provident officia porro qui eligendi repudiandae reiciendis.</p>
+                    <div class="testimonio-info">
+                        <p class="cliente">Emiliano Martinez</p>
+                        <p class="cargo">Arquero de la seleccion Argentina</p>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="Imagenes/scaloni.jpg" alt="Imagen de Messi">
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestias quam veniam repellat, fuga natus? Consectetur earum perspiciatis accusantium, voluptas aut beatae quae provident officia porro qui eligendi repudiandae reiciendis.</p>
+                    <div class="testimonio-info">
+                        <p class="cliente">Lionel Scaloni</p>
+                        <p class="cargo">Director tecnico de la seleccion Argentina</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
