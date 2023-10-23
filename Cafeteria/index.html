@@ -28,13 +28,16 @@
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Carta</a>
+                        <a class="nav-link" href="#carta">Carta</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#visitanos">Visitanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactanos">Contactanos</a>
                     </li>
                 </ul>
             </div>
@@ -45,13 +48,14 @@
         <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
 
             <h1>Cafeteria "Los Campeones"</h1>
-            <p class="align-items-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus perferendis rerum eligendi eos,
+            <p class="align-items-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus
+                perferendis rerum eligendi eos,
                 fuga beatae eaque molestias dignissimos impedit, aliquam aperiam alias similique iste ipsam nemo
                 praesentium deserunt consequuntur ipsum!</p>
         </div>
     </section>
     <!-- Cafes -->
-    <section class="cafes d-flex flex-column">
+    <section id="carta" class="cafes d-flex flex-column">
         <h2 class="seccion-titulo">Cafes</h2>
         <h3 class="seccion-descripcion">Estos son los cafes que tenemos disponibles:</h3>
         <!-- Galeria de cafes -->
@@ -121,46 +125,147 @@
         <!-- Carrusel -->
         <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="container">
-                    <img class="testimonio-imagen rounded-circle" src="Imagenes/messi.jpg" alt="Imagen de Messi">
-                    <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestias quam veniam repellat, fuga natus? Consectetur earum perspiciatis accusantium, voluptas aut beatae quae provident officia porro qui eligendi repudiandae reiciendis.</p>
-                    <div class="testimonio-info">
-                        <p class="cliente">Lionel Messi</p>
-                        <p class="cargo">Capitan de la seleccion Argentina</p>
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="Imagenes/messi.jpg" alt="Imagen de Messi">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                            molestias quam veniam repellat, fuga natus? Consectetur earum perspiciatis accusantium,
+                            voluptas aut beatae quae provident officia porro qui eligendi repudiandae reiciendis.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Lionel Messi</p>
+                            <p class="cargo">Capitan de la seleccion Argentina</p>
+                        </div>
                     </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container">
-                    <img class="testimonio-imagen rounded-circle" src="Imagenes/dibu.jpg" alt="Imagen de Messi">
-                    <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestias quam veniam repellat, fuga natus? Consectetur earum perspiciatis accusantium, voluptas aut beatae quae provident officia porro qui eligendi repudiandae reiciendis.</p>
-                    <div class="testimonio-info">
-                        <p class="cliente">Emiliano Martinez</p>
-                        <p class="cargo">Arquero de la seleccion Argentina</p>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="Imagenes/dibu.jpg" alt="Imagen de Messi">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                            molestias quam veniam repellat, fuga natus? Consectetur earum perspiciatis accusantium,
+                            voluptas aut beatae quae provident officia porro qui eligendi repudiandae reiciendis.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Emiliano Martinez</p>
+                            <p class="cargo">Arquero de la seleccion Argentina</p>
+                        </div>
                     </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container">
-                    <img class="testimonio-imagen rounded-circle" src="Imagenes/scaloni.jpg" alt="Imagen de Messi">
-                    <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestias quam veniam repellat, fuga natus? Consectetur earum perspiciatis accusantium, voluptas aut beatae quae provident officia porro qui eligendi repudiandae reiciendis.</p>
-                    <div class="testimonio-info">
-                        <p class="cliente">Lionel Scaloni</p>
-                        <p class="cargo">Director tecnico de la seleccion Argentina</p>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="Imagenes/scaloni.jpg" alt="Imagen de Messi">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                            molestias quam veniam repellat, fuga natus? Consectetur earum perspiciatis accusantium,
+                            voluptas aut beatae quae provident officia porro qui eligendi repudiandae reiciendis.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Lionel Scaloni</p>
+                            <p class="cargo">Director tecnico de la seleccion Argentina</p>
+                        </div>
                     </div>
                 </div>
-              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
+    </section>
+    <!-- Historia -->
+    <section class="Historia">
+        <div class="align-items-center" style="width: 1000px;">
+            <div class="row align-items-center py-4">
+                <div class="col">
+                    <img src="Imagenes/cafeteria.jpg" alt="cafeteria" class="img-fluid">
+                </div>
+                <div class="col">
+                    <h2>Historia</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsum in voluptatem deleniti
+                        cupiditate atque dolor cum blanditiis eum beatae dicta minus a nesciunt, nostrum laboriosam,
+                        enim expedita asperiores natus!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Nosotros -->
+    <section id="nosotros" class="Nosotros">
+        <h2>Nosotros</h2>
+        <div class="row align-items-center">
+            <div class="card" style="width: 18rem;">
+                <img class="card-imagen" src="Imagenes/alberto.jpg" class="card-img-top" alt="alberto">
+                <div class="card-body">
+                  <h5 class="card-title">Alberto</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-imagen" src="Imagenes/juana.jpg" class="card-img-top" alt="juana">
+                <div class="card-body">
+                  <h5 class="card-title">Juana</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-imagen" src="Imagenes/emiliano.jpeg" class="card-img-top" alt="emiliano">
+                <div class="card-body">
+                  <h5 class="card-title">Emiliano</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-imagen" src="Imagenes/pepe.jpg" class="card-img-top" alt="pepe">
+                <div class="card-body">
+                  <h5 class="card-title">Pepe</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- Visitanos -->
+    <section id="visitanos" class="visitanos">
+        <div class="align-items-center">
+            <h2>Visitanos</h2>
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210068.16489918515!2d-58.74319030421913!3d-34.64674500495828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc951c0fe2d9f5%3A0x9f1c540898efecbe!2sUTN%20-%20Facultad%20Regional%20Haedo!5e0!3m2!1ses-419!2sar!4v1698065629537!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- Contactanos -->
+    <section id="contactanos" class="Contactanos">
+        <div class="align-items-center">
+            <h2>Contactanos</h2>
+            <div class="row g-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Tel" aria-label="Tel">
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Mensaje"></textarea>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
     </section>
 
     <!-- Bootstrap -->
