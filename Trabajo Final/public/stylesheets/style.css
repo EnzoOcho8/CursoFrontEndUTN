@@ -1,0 +1,113 @@
+body {
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* hero */
+.hero{
+  text-align: center;
+  background: url(../images/cafe.jpeg);
+  background-size: cover;
+  height: 500px;
+  min-height: 600px;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Cafes */
+.cafes {
+  padding: 40px;
+}
+.seccion-descripcion {
+  font-size: 1.2rem;
+}
+.cafes img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+.cafes-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.cafe:hover .overlay {
+  opacity: 1;
+}
+.cafe:hover img {
+  opacity: 0.2;
+}
+.cafe {
+  position: relative;
+}
+/* Testimonios */
+.testimonios {
+  padding: 40px 40px 80px 40px;
+}
+.testimonios .carousel {
+  max-width: 800px;
+}
+.carousel-item {
+  height: 500px;
+}
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.testimonio-imagen {
+  height: 150px;
+  width: 150px;
+  margin: 10px 10px 20px 10px;
+}
+.testimonio-texto {
+  text-align: center;
+}
+.testimonio-info {
+  font-weight: bold;
+  text-align: center;
+}
+.testimonio-info p {
+  margin-bottom: 0;
+}
+.testimonio-footer .cliente {
+  font-size: 1.2rem;
+}
+.testimonio-info .cargo {
+  font-size: 0.9rem;
+
+}
+.card-imagen{
+  height: 250px;
+  width: 250px;
+}
+
+#dcontacto{
+  margin: 1px;
+}
